@@ -1,0 +1,75 @@
+.border {
+  border: solid black 1px;
+}
+
+/* Positional */
+.centred {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left {
+  position: absolute;
+  left: 0;
+}
+.right {
+  position: absolute;
+  right: 0;
+}
+.top {
+  position: absolute;
+  top: 0;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Splits */
+.hsplit > * {
+  height: 50%;
+}
+.vsplit > * {
+  width: 50%;
+}
+
+/* Width, height and margin */
+.fat {
+  width: 100%;
+}
+.tall {
+  height: 100%;
+}
+.fill {
+  height: 100%;
+  width: 100%;
+}
+.flush {
+  margin: 0;
+}
+
+/* Decoration */
+.no-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-bold { font-weight:normal; }
+
+/* Lists */
+.horizontal-list > li {
+  display: inline;
+  margin: 0 10px 0;
+}
+
+.grid-list {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-list > li {
+  display: inline-block;
+  vertical-align: top;
+}
